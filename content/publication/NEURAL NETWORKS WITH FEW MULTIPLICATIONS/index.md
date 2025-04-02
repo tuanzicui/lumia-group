@@ -15,7 +15,7 @@ authors:
 #   - ''
 
 date: '2015-10-11T00:00:00Z'
-doi: '10.1109/JSTARS.2014.2329330'
+doi: 'https://doi.org/10.48550/arXiv.1510.03009'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -43,7 +43,7 @@ links:
 # - name: Custom Link
 #   url: https://ieeexplore.ieee.org/abstract/document/6844831
 - name: PDF
-  url: 'arXiv:1510.03009'
+  url: 'https://arxiv.org/pdf/1510.03009v3'
 url_code: ''
 url_dataset: ''
 url_poster: ''
