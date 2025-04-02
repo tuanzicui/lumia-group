@@ -24,7 +24,7 @@ doi: '10.1109/JSTARS.2014.2329330'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['journal article']
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*

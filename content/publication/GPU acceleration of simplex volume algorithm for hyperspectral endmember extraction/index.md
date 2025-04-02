@@ -31,7 +31,7 @@ doi: 'https://doi.org/10.1117/12.977956'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['journal article']
+publication_types: ['article-journal']
 
 # Publication name and optional abbreviated publication name.
 publication: In *High-Performance Computing in Remote Sensing II*
