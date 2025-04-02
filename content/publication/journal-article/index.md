@@ -1,4 +1,4 @@
----
+<!-- ---
 title: 'Neural Networks with Few Multiplications'
 
 # Authors
@@ -71,4 +71,4 @@ image:
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 # slides: example
----
+--- -->
