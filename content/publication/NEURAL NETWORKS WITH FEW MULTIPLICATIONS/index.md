@@ -1,21 +1,22 @@
 ---
-title: 'Neural Networks with Few Multiplications'
+title: 'Deep learning-based classification of hyperspectral data'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Yushi Chen
   - Zhouhan Lin
-  - Matthieu Courbariaux
-  - Roland Memisevic
-  - Yoshua Bengio
+  - Xing Zhao
+  - Gang Wang
+  - Yanfeng Gu
 
 # Author notes (optional)
-# author_notes:
-#   - ''
+author_notes:
+  - ' corresponding author'
 
-date: '2015-10-11T00:00:00Z'
-doi: 'https://doi.org/10.48550/arXiv.1510.03009'
+date: '2014-06-16T00:00:00Z'
+doi: '10.1109/JSTARS.2014.2329330'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -26,10 +27,10 @@ doi: 'https://doi.org/10.48550/arXiv.1510.03009'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *4th International Conference on Learning Representations*
-publication_short: In *ICLR2016*
+publication: In *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*
+publication_short: In *IEEE*
 
-abstract: For most deep learning algorithms training is notoriously time consuming. Since most of the computation in training neural networks is typically spent on floating point multiplications, we investigate an approach to training that eliminates the need for most of these. Our method consists of two parts: First we stochastically binarize weights to convert multiplications involved in computing hidden states to sign changes. Second, while back-propagating error derivatives, in addition to binarizing the weights, we quantize the representations at each layer to convert the remaining multiplications into binary shifts. Experimental results across 3 popular datasets (MNIST, CIFAR10, SVHN) show that this approach not only does not hurt classification performance but can result in even better performance than standard stochastic gradient descent training, paving the way to fast, hardware-friendly training of neural networks.
+abstract: Classification is one of the most popular topics in hyperspectral remote sensing. In the last two decades, a huge number of methods were proposed to deal with the hyperspectral data classification problem. However, most of them do not hierarchically extract deep features. In this paper, the concept of deep learning is introduced into hyperspectral data classification for the first time. First, we verify the eligibility of stacked autoencoders by following classical spectral information-based classification. Second, a new way of classifying with spatial-dominated information is proposed. We then propose a novel deep learning framework to merge the two features, from which we can get the highest classification accuracy. The framework is a hybrid of principle component analysis (PCA), deep learning architecture, and logistic regression. Specifically, as a deep learning architecture, stacked autoencoders are aimed to get useful high-level features. Experimental results with widely-used hyperspectral data indicate that classifiers built in this deep learning-based framework provide competitive performance. In addition, the proposed joint spectral-spatial deep neural network opens a new window for future research, showcasing the deep learning-based methods' huge potential for accurate hyperspectral data classification.
 # Summary. An optional shortened abstract.
 summary: ''
 
@@ -43,8 +44,8 @@ links:
 # - name: Custom Link
 #   url: https://ieeexplore.ieee.org/abstract/document/6844831
 - name: PDF
-  url: 'https://arxiv.org/pdf/1510.03009v3'
-url_code: ''
+  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6844831'
+url_code: 'https://github.com/hantek/deeplearn_hsi'
 url_dataset: ''
 url_poster: ''
 url_project: ''
