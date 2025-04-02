@@ -41,8 +41,8 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: Custom Link
-  url: https://ieeexplore.ieee.org/abstract/document/6844831
+# - name: Custom Link
+#   url: https://ieeexplore.ieee.org/abstract/document/6844831
 - name: PDF
   url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6844831'
 url_code: 'https://github.com/hantek/deeplearn_hsi'
