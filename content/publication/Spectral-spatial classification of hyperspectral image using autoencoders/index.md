@@ -1,15 +1,14 @@
 ---
-title: 'Parallel implementation for SAM algorithm based on GPU and distributed computing'
+title: 'Spectral-spatial classification of hyperspectral image using autoencoders'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Haicheng Qu
-  - Junping Zhang
-  - Yushi Chen
-  - Hao Chen
   - Zhouhan Lin
+  - Yushi Chen
+  - Xing Zhao
+  - Gang Wang
 
 # Author notes (optional)
 author_notes:
@@ -22,8 +21,8 @@ author_notes:
   - ''
   - ''
 
-date: '2012-07-22T00:00:00Z'
-doi: 'https://ieeexplore.ieee.org/abstract/document/6350514'
+date: '2013-12-10T00:00:00Z'
+doi: '10.1109/ICICS.2013.6782778'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -34,14 +33,14 @@ doi: 'https://ieeexplore.ieee.org/abstract/document/6350514'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *In 2012 IEEE International Geoscience and Remote Sensing Symposium*
-publication_short: In *IGARSS 2012*
+publication: In *9th International Conference on Information, Communications and Signal Processing*
+publication_short: In *ICICS 2013*
 
-abstract: Advances in sensor and computer technology are revolutionizing the way that remote sensing data with hundreds or even thousands of channels for the same area on the surface of the earth is collected, managed and analyzed. In this paper, the classical Spectral Angle Mapper (SAM) algorithm, which is fit for parallel and distributed computing, is implemented by using Graphic Processing Units (GPU) and distributed cluster respectively to accelerate the computations. A quantitative performance comparison between Compute Unified Device Architecture (CUDA) and Matlab platform is given by analyzing result of different parallel architectures' implementation of the same SAM algorithm.
+abstract: Hyperspectral image (HSI) classification is a hot topic in the remote sensing community. This paper proposes a new framework of spectral-spatial feature extraction for HSI classification, in which for the first time the concept of deep learning is introduced. Specifically, the model of autoencoder is exploited in our framework to extract various kinds of features. First we verify the eligibility of autoencoder by following classical spectral information based classification and use autoencoders with different depth to classify hyperspectral image. Further in the proposed framework, we combine PCA on spectral dimension and autoencoder on the other two spatial dimensions to extract spectral-spatial information for classification. The experimental results show that this framework achieves the highest classification accuracy among all methods, and outperforms classical classifiers such as SVM and PCA-based SVM.
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: [high-performance computing, SAM, GPU, distributed computing ]
+tags: [autoencoders; deep learning; hyperspectral; image classification; neural networks; stacked autoencoders]
 
 # Display this page in the Featured widget?
 featured: true
@@ -51,7 +50,7 @@ links:
 # - name: Custom Link
 #   url: https://ieeexplore.ieee.org/abstract/document/6844831
 - name: PDF
-  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6350514'
+  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6782778'
 url_code: ''
 url_dataset: ''
 url_poster: ''

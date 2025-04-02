@@ -1,14 +1,14 @@
 ---
-title: 'Riemannian Manifold Learning based k-Nearest-Neighbor for Hyperspectral Image Classification'
+title: 'Neural networks with few multiplications'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yushi Chen
   - Zhouhan Lin
-  - Xing Zhao
-
+  - Matthieu Courbariaux
+  - Roland Memisevic
+  - Yoshua Bengio
 # Author notes (optional)
 author_notes:
   - ''
@@ -20,8 +20,8 @@ author_notes:
   - ''
   - ''
 
-date: '2013-07-21T00:00:00Z'
-doi: '10.1109/IGARSS.2013.6723195'
+date: '2015-10-11T00:00:00Z'
+doi: ' 	arXiv:1510.03009'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -32,14 +32,14 @@ doi: '10.1109/IGARSS.2013.6723195'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2013 IEEE International Geoscience and Remote Sensing Symposium*
-publication_short: In *IGARSS 2013*
+publication: In *4th International Conference on Learning Representations*
+publication_short: In *ICLR 2016*
 
-abstract: The existence of nonlinear characteristics in hyperspectral data is considered as an influential factor curtailing the classification accuracy of canonical linear classifier like k-nearest neighbor (k-NN). To deal with the problem, we investigated approaches to combine manifold learning methods and the k-NN classifier to preserve nonlinear characteristics contained in hyperspectral imagery. Then we proposed a Riemannian manifold learning (RML) based k-NN classifier for hyperspectral image classification, which substitutes the Euclidean distances used in canonical kNN by geodesic distances yielded by RML. The experimental results on AVIRIS data show that in most cases, the RML-kNN Classifier accesses higher classification accuracies than canonical k-NN.
+abstract: For most deep learning algorithms training is notoriously time consuming. Since most of the computation in training neural networks is typically spent on floating point multiplications, we investigate an approach to training that eliminates the need for most of these. Our method consists of two parts: First we stochastically binarize weights to convert multiplications involved in computing hidden states to sign changes. Second, while back-propagating error derivatives, in addition to binarizing the weights, we quantize the representations at each layer to convert the remaining multiplications into binary shifts. Experimental results across 3 popular datasets (MNIST, CIFAR10, SVHN) show that this approach not only does not hurt classification performance but can result in even better performance than standard stochastic gradient descent training, paving the way to fast, hardware-friendly training of neural networks.
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: [hyperspectral image, classification, feature extraction, Riemannian manifold learning, k-nearest neighbors]
+tags: []
 
 # Display this page in the Featured widget?
 featured: true
@@ -49,7 +49,7 @@ links:
 # - name: Custom Link
 #   url: https://ieeexplore.ieee.org/abstract/document/6844831
 - name: PDF
-  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6723195'
+  url: 'https://arxiv.org/pdf/1510.03009'
 url_code: ''
 url_dataset: ''
 url_poster: ''

@@ -1,14 +1,13 @@
 ---
-title: 'Parallel Acceleration of SAM Algorithm and Performance Analysis'
+title: 'Optimizing Subspace SVM Ensemble for Hyperspectral Imagery Classification'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Haicheng Qu
-  - Junping Zhang
+  - Yushi Chen
+  - Xing Zhao
   - Zhouhan Lin
-  - Hao Chen
 
 # Author notes (optional)
 author_notes:
@@ -21,8 +20,8 @@ author_notes:
   - ''
   - ''
 
-date: '2013-01-25T00:00:00Z'
-doi: '10.1109/JSTARS.2013.2239261'
+date: '2014-04-01T00:00:00Z'
+doi: '10.1109/ICICS.2013.6782778'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -33,14 +32,14 @@ doi: '10.1109/JSTARS.2013.2239261'
 publication_types: ['journal article']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*
+publication: In *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing *
 publication_short: In *IEEE*
 
-abstract: Advances in sensor and computer technology are revolutionizing the way that remote sensing data with hundreds or even thousands of channels for the same area on the surface of the earth is collected, managed and analyzed. In this paper, the classical Spectral Angle Mapper (SAM) algorithm, which is fit for parallel and distributed computing, is implemented by using Graphic Processing Units (GPU) and distributed cluster respectively to accelerate the computations. A quantitative performance comparison between Compute Unified Device Architecture (CUDA) and MATLAB platform is given by analyzing result of different parallel architectures' implementation of the same SAM algorithm. Especially for the property of GPU, this paper studied the balance between resource acquirement of each thread and the number of active blocks, and the impact of computational complexity on speedup. In addition, page-locked memory and stream are also introduced to make CPU and GPU work collaboratively. Moreover, we improved the SAM algorithm, in which several training samples are instead of a single one. Experimental results on hyperspectral data have shown that recognition result of the improved SAM algorithm is better than that only using single spectrum. On the other hand, the GPU parallel implementation achieves a higher speedup comparing with the multithread CPU counterpart. And the asynchronous transfer function of CUDA covers the data transmission latency effectively, thus improves the devices' resource occupancy significantly.
+abstract: In hyperspectral remote sensing image classification, ensemble systems with support vector machine (SVM), such as the Random Subspace SVM Ensemble (RSSE), have significantly outperformed single SVM on the robustness and overall accuracy. In this paper, we introduce a novel subspace mechanism, the Optimizing Subspace SVM Ensemble (OSSE), to improve RSSE by selecting discriminating subspaces for individual SVMs. The framework is based on Genetic Algorithm (GA), adopting the Jeffries–Matusita (JM) distance as a criterion, to optimize the selected subspaces. The combination of optimizing subspaces is more suitable for classification than the random one, at the same time having the ability to accommodate requisite diversity within the ensemble. The modifications have improved the accuracies of individual classifiers; as a result, better overall accuracies are present. Experiments on the classification of two hyperspectral datasets reveal that our proposed OSSE obtains sound performances compared with RSSE, single SVM, and other ensemble with GA to optimize SVM.
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: [High-performance computing, SAM, GPU, distributed computing]
+tags: [Ensemble, hyperspectral imagery classification, optimal subspace, random subspace, support vector machine(SVM)]
 
 # Display this page in the Featured widget?
 featured: true
@@ -50,7 +49,7 @@ links:
 # - name: Custom Link
 #   url: https://ieeexplore.ieee.org/abstract/document/6844831
 - name: PDF
-  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6420972'
+  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6774860'
 url_code: ''
 url_dataset: ''
 url_poster: ''
