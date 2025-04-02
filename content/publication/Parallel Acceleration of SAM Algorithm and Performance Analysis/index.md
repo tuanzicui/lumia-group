@@ -1,5 +1,5 @@
 ---
-title: 'GPU acceleration of simplex volume algorithm for hyperspectral endmember extraction'
+title: 'Parallel Acceleration of SAM Algorithm and Performance Analysis'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -9,7 +9,6 @@ authors:
   - Junping Zhang
   - Zhouhan Lin
   - Hao Chen
-  - Bormin Huang 
 
 # Author notes (optional)
 author_notes:
@@ -22,8 +21,8 @@ author_notes:
   - ''
   - ''
 
-date: '2012-11-08T00:00:00Z'
-doi: 'https://doi.org/10.1117/12.977956'
+date: '2013-01-25T00:00:00Z'
+doi: '10.1109/JSTARS.2013.2239261'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -31,26 +30,27 @@ doi: 'https://doi.org/10.1117/12.977956'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['journal article']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *High-Performance Computing in Remote Sensing II*
-#publication_short: In *IGARSS2012*
+publication: In *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing*
+publication_short: In *IEEE*
 
-abstract: The simplex volume algorithm (SVA)1 is an endmember extraction algorithm based on the geometrical properties of a simplex in the feature space of hyperspectral image. By utilizing the relation between a simplex volume and its corresponding parallelohedron volume in the high-dimensional space, the algorithm extracts endmembers from the initial hyperspectral image directly without the need of dimension reduction. It thus avoids the drawback of the N-FINDER algorithm, which requires the dimension of the data to be reduced to one less than the number of the endmembers. In this paper, we take advantage of the large-scale parallelism of CUDA (Compute Unified Device Architecture) to accelerate the computation of SVA on the NVidia GeForce 560 GPU. The time for computing a simplex volume increases with the number of endmembers. Experimental results show that the proposed GPU-based SVA achieves a significant 112.56x speedup for extracting 16 endmembers, as compared to its CPU-based single-threaded counterpart.
+abstract: Advances in sensor and computer technology are revolutionizing the way that remote sensing data with hundreds or even thousands of channels for the same area on the surface of the earth is collected, managed and analyzed. In this paper, the classical Spectral Angle Mapper (SAM) algorithm, which is fit for parallel and distributed computing, is implemented by using Graphic Processing Units (GPU) and distributed cluster respectively to accelerate the computations. A quantitative performance comparison between Compute Unified Device Architecture (CUDA) and MATLAB platform is given by analyzing result of different parallel architectures' implementation of the same SAM algorithm. Especially for the property of GPU, this paper studied the balance between resource acquirement of each thread and the number of active blocks, and the impact of computational complexity on speedup. In addition, page-locked memory and stream are also introduced to make CPU and GPU work collaboratively. Moreover, we improved the SAM algorithm, in which several training samples are instead of a single one. Experimental results on hyperspectral data have shown that recognition result of the improved SAM algorithm is better than that only using single spectrum. On the other hand, the GPU parallel implementation achieves a higher speedup comparing with the multithread CPU counterpart. And the asynchronous transfer function of CUDA covers the data transmission latency effectively, thus improves the devices' resource occupancy significantly.
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags: [High-performance computing, SAM, GPU, distributed computing]
 
 # Display this page in the Featured widget?
 featured: true
 
 # Custom links (uncomment lines below)
-#links:
+links:
 # - name: Custom Link
 #   url: https://ieeexplore.ieee.org/abstract/document/6844831
-
+- name: PDF
+  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6420972'
 url_code: ''
 url_dataset: ''
 url_poster: ''

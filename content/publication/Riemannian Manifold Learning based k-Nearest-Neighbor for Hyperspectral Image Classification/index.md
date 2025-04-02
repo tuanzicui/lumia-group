@@ -1,15 +1,13 @@
 ---
-title: 'GPU acceleration of simplex volume algorithm for hyperspectral endmember extraction'
+title: 'Riemannian Manifold Learning based k-Nearest-Neighbor for Hyperspectral Image Classification'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Haicheng Qu
-  - Junping Zhang
+  - Yushi Chen
   - Zhouhan Lin
-  - Hao Chen
-  - Bormin Huang 
+  - Xing Zhao
 
 # Author notes (optional)
 author_notes:
@@ -22,8 +20,8 @@ author_notes:
   - ''
   - ''
 
-date: '2012-11-08T00:00:00Z'
-doi: 'https://doi.org/10.1117/12.977956'
+date: '2013-07-21T00:00:00Z'
+doi: '10.1109/IGARSS.2013.6723195'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -31,26 +29,27 @@ doi: 'https://doi.org/10.1117/12.977956'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['journal article']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *High-Performance Computing in Remote Sensing II*
-#publication_short: In *IGARSS2012*
+publication: In *2013 IEEE International Geoscience and Remote Sensing Symposium*
+publication_short: In *IGARSS 2013*
 
-abstract: The simplex volume algorithm (SVA)1 is an endmember extraction algorithm based on the geometrical properties of a simplex in the feature space of hyperspectral image. By utilizing the relation between a simplex volume and its corresponding parallelohedron volume in the high-dimensional space, the algorithm extracts endmembers from the initial hyperspectral image directly without the need of dimension reduction. It thus avoids the drawback of the N-FINDER algorithm, which requires the dimension of the data to be reduced to one less than the number of the endmembers. In this paper, we take advantage of the large-scale parallelism of CUDA (Compute Unified Device Architecture) to accelerate the computation of SVA on the NVidia GeForce 560 GPU. The time for computing a simplex volume increases with the number of endmembers. Experimental results show that the proposed GPU-based SVA achieves a significant 112.56x speedup for extracting 16 endmembers, as compared to its CPU-based single-threaded counterpart.
+abstract: The existence of nonlinear characteristics in hyperspectral data is considered as an influential factor curtailing the classification accuracy of canonical linear classifier like k-nearest neighbor (k-NN). To deal with the problem, we investigated approaches to combine manifold learning methods and the k-NN classifier to preserve nonlinear characteristics contained in hyperspectral imagery. Then we proposed a Riemannian manifold learning (RML) based k-NN classifier for hyperspectral image classification, which substitutes the Euclidean distances used in canonical kNN by geodesic distances yielded by RML. The experimental results on AVIRIS data show that in most cases, the RML-kNN Classifier accesses higher classification accuracies than canonical k-NN.
 # Summary. An optional shortened abstract.
 summary: ''
 
-tags: []
+tags: [hyperspectral image, classification, feature extraction, Riemannian manifold learning, k-nearest neighbors]
 
 # Display this page in the Featured widget?
 featured: true
 
 # Custom links (uncomment lines below)
-#links:
+links:
 # - name: Custom Link
 #   url: https://ieeexplore.ieee.org/abstract/document/6844831
-
+- name: PDF
+  url: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6723195'
 url_code: ''
 url_dataset: ''
 url_poster: ''
