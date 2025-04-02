@@ -11,8 +11,8 @@ authors:
   - Yoshua Bengio
 
 # Author notes (optional)
-author_notes:
-  - ''
+# author_notes:
+#   - ''
 
 date: '2015-10-11T00:00:00Z'
 doi: '10.1109/JSTARS.2014.2329330'
