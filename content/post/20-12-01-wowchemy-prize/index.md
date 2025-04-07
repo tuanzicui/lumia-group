@@ -1,9 +1,9 @@
 ---
 title: Two papers are accepted at ACL 2022!
-date: 2022-02-01
+{{ .Date.Format "2022-02" }}
 ---
-
--- Two papers are accepted at ACL 2022!
+<!-- 
+ -- Two papers are accepted at ACL 2022! -->
 
 <!--more-->
 <!-- 
