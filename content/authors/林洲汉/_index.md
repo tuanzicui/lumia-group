@@ -33,7 +33,7 @@ education:
   courses:
     - course: PhD in Computer Science
       institution: University of Montreal
-      month: 2019-02
+      day: 2019-02-02
     - course: MEng in Computer Science
       institution: Harbin Institute of Technology
       year: 2014
