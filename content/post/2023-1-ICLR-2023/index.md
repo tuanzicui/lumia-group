@@ -1,9 +1,11 @@
 ---
-title: Two papers are accepted at ACL 2022!
-{{ .Date.Format "2022-02" }}
+title: One paper is accepted at ICLR 2023!
+date: 2023-01-01
+# image:
+#   focal_point: 'top'
 ---
-<!-- 
- -- Two papers are accepted at ACL 2022! -->
+
+<!-- Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
 
 <!--more-->
 <!-- 
