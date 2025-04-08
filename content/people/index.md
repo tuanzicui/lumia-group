@@ -14,7 +14,7 @@ sections:
           - Faculty
           - PhD
           - Master
-          - Undergraduates
+          - Undergraduate
           - Intern
           - Alumni
       sort_by: Params.last_name
