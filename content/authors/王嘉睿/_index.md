@@ -1,16 +1,16 @@
 ---
 # Display name
-title: 侯晟元
+title: 王嘉睿
 
 # Full Name (for SEO)
-first_name: Hou
-last_name: Shengyuan
+first_name: Wang
+last_name: Jiarui
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: 3rd year master's student
+role: 1st year master's student
 
 # Organizations/Affiliations
 organizations:
@@ -18,16 +18,16 @@ organizations:
     url: 'https://www.sjtu.edu.cn'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interest is time series forecasting.
+bio: My research interest is NLP.
 
 interests:
-  - Time Series Forecasting
+  - Natural Language Processing
 
 education:
   courses:
     - course: BSc in Computer Science and Technology
       institution: Shanghai Jiao Tong University
-      year: 2022
+      year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -36,7 +36,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '445164577@qq.com'
+    link: 'wangjiarui1@sjtu.edu.cn'
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/GeorgeCushen
@@ -53,7 +53,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: '445164577@qq.com'
+email: 'wangjiarui1@sjtu.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -61,7 +61,8 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master
+  - PhD
 ---
 
-Hou Shengyuan studied both undergraduate and graduate at Shanghai Jiao Tong University and is currently a third year master's student. His area of interest is time series forecasting.
+Wang Jiarui studied at Shanghai Jiao Tong University for his undergraduate degree, and after graduating in 2024, he went directly to our university for a doctoral degree. He is currently a first-year doctoral student. His research direction of interest is NLP.
+
